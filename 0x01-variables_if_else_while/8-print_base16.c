@@ -14,4 +14,11 @@ int main(void)
 	{
 		putchar(dig);
 	}
+	for (letterhex = 97, n = 1; n < 7; letterhex++, n++)
+	{
+		putchar(letterhex);
+	}
+	putchar(10);
+	return (0);
+}
 
